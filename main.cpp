@@ -179,8 +179,9 @@ int main(int argc, char* argv[]) {
         SDL_RenderClear(renderer);
 
         // todo: add your game logic here to be drawn before the ui rendering
+
         // Set renderer color red to draw the square
-        SDL_SetRenderDrawColor(renderer, 0xFF, 0x00, 0x00, 0xFF);
+        SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0x00, 0xFF);
         // Draw filled square
         SDL_RenderFillRect(renderer, &squareRect);
 
